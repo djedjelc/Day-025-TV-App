@@ -1,0 +1,144 @@
+:root{
+    --redcolor: #dc1414;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    color: white;
+    background: linear-gradient(180deg, rgba(12,7,7,1) 0%, rgba(52,12,12,1) 100%);
+}
+
+.container{
+    padding: 10px 80px;
+}
+
+.top-movie{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.details-movie{
+    width: 50%;
+}
+
+.movie-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.meta-movie{
+    font-size: 14px;
+    color: gray;
+}
+
+.categorie{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.liste{
+    display: flex;
+    column-gap: 40px;
+    list-style: none;
+    padding-left: 0px;
+    color: gray;
+}
+
+.resume{
+    color: white;
+    border-bottom: 2px solid white;
+    border-radius: 50%;
+    padding-bottom: 5px;
+}
+
+.meta-movie span{
+    color: white;
+}
+
+.text-resume{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.miniature{
+    width: 50%;
+}
+
+.miniature img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.btn-watch{
+    background: var(--redcolor);
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+.espaceur{
+    margin-top: 30px;
+}
+
+.liste-movies-similar{
+    display: flex;
+    gap: 40px;
+}
+
+.card-movie img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.title-similar-movie{
+    margin-bottom: 5px;
+}
+
+.checked{
+    color: orange;
+}
+
+.title-avis{
+    margin-top: 5px;
+}
+
+.fleches{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+    margin-top: -20px;
+}
+
+.fleche-gauche{
+    width: 30px;
+    height: 30px;
+    background: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fleche-droite{
+    width: 30px;
+    height: 30px;
+    background: var(--redcolor);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
